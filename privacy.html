@@ -11,78 +11,234 @@
   h2 { margin-top: 2rem; font-size: 1.25rem; }
   a { color: #2a6df4; }
   .updated { color: #666; font-size: 0.9rem; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+  th, td { border: 1px solid #ddd; padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+  th { background: #f5f7fb; }
 </style>
 </head>
 <body>
   <p><a href="index.html">&larr; Home</a></p>
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: 20 April 2026</p>
+  <p class="updated">Last updated: 9 October 2026</p>
 
-  <p>This Privacy Policy describes how Big 2 Online ("we", "the app") handles
-     your information. Big 2 Online is operated by Henry Charlesworth
-     (support@big2online.app).</p>
+  <p>This Privacy Policy explains how Big 2 Online ("we", "us", "the app")
+     handles your personal data. Big 2 Online is operated by Henry
+     Charlesworth, an individual based in the United Kingdom, who is the
+     controller of your personal data under UK data protection law (the UK
+     GDPR and the Data Protection Act 2018). Contact:
+     <a href="mailto:support@big2online.app">support@big2online.app</a>.</p>
+  <p>Big 2 Online is only for people aged <strong>18 and over</strong>. Please
+     also read our <a href="terms.html">Terms of Service</a>.</p>
+
+  <h2>Offline practice</h2>
+  <p>Practice against the computer runs entirely on your device and works
+     without an account. Your year of birth from the age check, and app
+     settings such as your card skin, are stored only on your device. If the
+     device is online, ads may still be shown (see "Advertising").</p>
 
   <h2>Information we collect</h2>
-  <p>When you create an account or play online, we collect:</p>
+  <p>When you create an account or use the online features we collect:</p>
   <ul>
-    <li><strong>Account information</strong> — email address and display name,
-        managed via Google Firebase Authentication. If you sign in with Google,
-        we receive your basic Google profile (email, name).</li>
-    <li><strong>Game data</strong> — your credit balance, in-game purchases
-        (cosmetic items, titles), achievements, match history, and level/XP.</li>
-    <li><strong>Purchase history</strong> — when you buy credit packs, purchase
-        records are processed by Google Play and RevenueCat. We do not store
-        payment card details.</li>
-    <li><strong>Device and advertising identifiers</strong> — when ads are shown,
-        Google AdMob may access your device advertising ID in line with Google's
-        own privacy policy.</li>
-    <li><strong>Technical logs</strong> — IP address and basic request metadata
-        for abuse prevention and debugging. These are retained short-term.</li>
+    <li><strong>Account information</strong> &mdash; your email address, and
+        your name if you sign in with Google, via Google Firebase
+        Authentication; a Firebase user ID; and the display name and avatar
+        you choose.</li>
+    <li><strong>Game and account activity</strong> &mdash; games you play
+        (seats, stakes, results), your credit balance and full credit history,
+        items you own and equip, XP, level, achievements, friends and friend
+        requests, preferences, notification
+        settings, the version of the Terms you accepted and when, and when
+        you were last online.</li>
+    <li><strong>Purchase history</strong> &mdash; when you buy credits, Google
+        Play processes the payment and RevenueCat validates it for us. We
+        receive a record of the transaction (product, price, time and store
+        transaction ID) linked to your user ID. We never receive your card or
+        payment details.</li>
+    <li><strong>Push notification token</strong> &mdash; if you allow
+        notifications, a Firebase Cloud Messaging token for your device, used
+        to tell you about friend requests and game invites.</li>
+    <li><strong>Discord account (optional)</strong> &mdash; if you choose to
+        link Discord, your Discord user ID and username, and whether you are a
+        member of our Discord server (so we can grant the linking reward and
+        add you to the server at your request). You can unlink at any time.</li>
+    <li><strong>Crash and error reports</strong> &mdash; when the app or our
+        server hits an error, a report is sent to Sentry. It contains
+        technical details (stack trace, app version, device model, operating
+        system, the screens visited just before the error) and your Firebase
+        user ID, so we can tell how many players are affected. It does not
+        include your email address or game content.</li>
+    <li><strong>Device and advertising identifiers</strong> &mdash; Google
+        AdMob uses your device's advertising ID, and the consent choices you
+        make in the app, to serve and measure ads.</li>
+    <li><strong>Technical and security data</strong> &mdash; your IP address
+        and basic request details, used for rate limiting, abuse prevention and
+        debugging. When you join through a friend's invite, we also record the
+        IP address of your sign-up to detect referral fraud.</li>
   </ul>
 
-  <h2>How we use your information</h2>
-  <ul>
-    <li>To provide the game: authenticate your account, sync progress across
-        devices, match you with other players.</li>
-    <li>To process in-app purchases via Google Play and RevenueCat.</li>
-    <li>To show advertising via Google AdMob.</li>
-    <li>To detect abuse, cheating, or violations of our terms.</li>
-  </ul>
+  <h2>How we use your information, and our legal bases</h2>
+  <table>
+    <tr><th>Purpose</th><th>Legal basis</th></tr>
+    <tr><td>Create and run your account; matchmaking, lobbies, friends,
+            leaderboards and game play; syncing progress across devices</td>
+        <td>Performance of our contract with you (the Terms)</td></tr>
+    <tr><td>Process and validate purchases and deliver credits</td>
+        <td>Contract; legal obligation (keeping transaction records)</td></tr>
+    <tr><td>Send push notifications about friend requests and invites</td>
+        <td>Your consent (you can switch these off in the app or in Android
+            settings)</td></tr>
+    <tr><td>Transactional emails (for example email-address verification),
+            sent through Resend</td>
+        <td>Contract</td></tr>
+    <tr><td>Fair play: detecting collusion, multiple accounts, bots, bonus and
+            referral abuse; enforcing bans</td>
+        <td>Our legitimate interests in a fair game and preventing fraud</td></tr>
+    <tr><td>Crash and error reporting; security and rate limiting</td>
+        <td>Our legitimate interests in a working, secure service</td></tr>
+    <tr><td>Showing ads; personalised ads</td>
+        <td>Legitimate interests (non-personalised ads); your consent where
+            required (personalised ads and storing/accessing information on
+            your device)</td></tr>
+    <tr><td>Recording which version of the Terms you accepted</td>
+        <td>Contract; legitimate interests (evidence of agreement)</td></tr>
+  </table>
+  <p>We do not sell your personal data, and we do not use it for automated
+     decisions with legal or similarly significant effects. Fair-play systems
+     may flag accounts for review; a person reviews before a permanent
+     ban.</p>
 
-  <h2>Third-party services</h2>
-  <p>Big 2 Online uses the following services, each with its own privacy policy:</p>
+  <h2>Inviting friends</h2>
+  <p>When you invite a friend, the app gives you a personal invite link that
+     you share yourself, using whatever app you choose. We do not email or
+     message people on your behalf, and we do not collect your friends'
+     contact details. If your friend signs up through your link, we record
+     that they were referred by you so both of you can receive the referral
+     rewards.</p>
+
+  <h2>Service providers we share data with</h2>
+  <p>We use the following processors. Each only receives what it needs to
+     provide its service to us:</p>
   <ul>
     <li><a href="https://firebase.google.com/support/privacy">Google Firebase</a>
-        — authentication.</li>
-    <li><a href="https://policies.google.com/privacy">Google Play Billing</a>
-        — in-app purchases.</li>
+        &mdash; sign-in (Authentication) and push notifications (Cloud
+        Messaging).</li>
+    <li><a href="https://policies.google.com/privacy">Google Play</a>
+        &mdash; app distribution and payments.</li>
     <li><a href="https://www.revenuecat.com/privacy">RevenueCat</a>
-        — purchase validation.</li>
+        &mdash; purchase validation (receives your user ID and purchase
+        records).</li>
     <li><a href="https://policies.google.com/technologies/ads">Google AdMob</a>
-        — advertising.</li>
+        &mdash; advertising, including Google's consent tools.</li>
+    <li><a href="https://sentry.io/privacy/">Sentry</a> &mdash; crash and
+        error reports (stored in Sentry's EU region).</li>
+    <li><a href="https://resend.com/legal/privacy-policy">Resend</a>
+        &mdash; sending transactional emails to your address.</li>
+    <li><a href="https://discord.com/privacy">Discord</a> &mdash; only if you
+        choose to link your Discord account.</li>
+    <li><a href="https://www.hetzner.com/legal/privacy-policy">Hetzner</a>
+        &mdash; hosting of our servers and database (EU).</li>
+    <li><a href="https://www.cloudflare.com/privacypolicy/">Cloudflare</a>
+        &mdash; storage of our encrypted database backups (R2) and
+        forwarding of email sent to our support address.</li>
+  </ul>
+  <p>Other players can see your public profile: display name, avatar, level,
+     equipped title and showcase items, game statistics, achievements,
+     and leaderboard positions. Only your friends can see whether you are
+     online and when you were last online.</p>
+  <p>We may disclose data if required by law, or to protect the rights and
+     safety of players or the Service.</p>
+
+  <h2>International transfers</h2>
+  <p>Some providers (for example Google, RevenueCat and Resend) process data
+     in the United States or elsewhere outside the UK. Where they do, the
+     transfer is protected by the UK's adequacy regulations (including the
+     UK&ndash;US Data Bridge) or by the UK International Data Transfer
+     Addendum to the EU Standard Contractual Clauses.</p>
+
+  <h2>How long we keep data</h2>
+  <ul>
+    <li><strong>Active accounts</strong> &mdash; for as long as your account
+        exists.</li>
+    <li><strong>Deleted accounts</strong> &mdash; deletion takes effect
+        immediately: we delete or anonymise your profile, email address,
+        items, friends, achievements, push tokens, Discord link and
+        preferences, and delete your sign-in account at Firebase. We keep the
+        anonymised credit ledger and game records (with no name or contact
+        details attached) because the ledger must stay complete for financial
+        record-keeping and anti-fraud purposes.</li>
+    <li><strong>Repeat sign-ups and bans</strong> &mdash; when an account is
+        deleted we keep a keyed hash of its email address (not the address
+        itself) for 12 months, so that the same email cannot claim the sign-up
+        bonus again and so that an active ban carries over to a new account.
+        After 12 months it is deleted.</li>
+    <li><strong>Purchase records</strong> &mdash; kept for as long as tax and
+        accounting law requires (up to 6 years in the UK).</li>
+    <li><strong>Server logs</strong> &mdash; rotated automatically and kept
+        for a short period, normally a few days.</li>
+    <li><strong>Crash reports</strong> &mdash; kept by Sentry for up to 90
+        days.</li>
+    <li><strong>Backups</strong> &mdash; encrypted daily database backups are
+        kept for 30 days, so deleted data disappears from backups within 30
+        days.</li>
   </ul>
 
-  <h2>Children</h2>
-  <p>Big 2 Online is not intended for children under 13. We do not knowingly
-     collect information from children under 13. If you believe a child has
-     provided us information, contact us and we will delete it.</p>
+  <h2>Advertising</h2>
+  <p>The app shows ads from Google AdMob. If you are in the UK or EEA, the
+     app asks for your consent to personalised ads before they are shown, and
+     you can change your choice at any time in Settings &rarr; Ads &rarr;
+     Manage ad privacy. You can also reset or delete your advertising ID in
+     your Android settings.</p>
+
+  <h2>Age</h2>
+  <p>Big 2 Online is for adults only. The app asks for your year of birth
+     before you can create an account and blocks anyone under 18. We do not
+     knowingly collect data from anyone under 18. If you believe someone
+     under 18 is using the app, contact us and we will close the account and
+     delete their data.</p>
 
   <h2>Your rights</h2>
-  <p>You can request access to, correction of, or deletion of your personal data
-     by contacting support@big2online.app. Deleting your account removes your profile,
-     game data, and credit balance; purchase records may be retained where
-     required by law or platform policy. Alternatively, fill in the form <a href="https://docs.google.com/forms/d/e/1FAIpQLSe29vgdlUz-LmJrWUeD8uh3oZsBvxzHPDT5UkIxHlJbzfxx2w/viewform?usp=sharing&ouid=110823894789146894714">here</a>.</p>
+  <p>You have the right to access your data, to have it corrected or
+     deleted, to restrict or object to how we use it, to data portability,
+     and to withdraw consent at any time. In the app you can:</p>
+  <ul>
+    <li>delete your account (Settings &rarr; Account &rarr; Delete
+        account);</li>
+    <li>change notification and ad-privacy choices in Settings.</li>
+  </ul>
+  <p>To get a copy of your data (in a machine-readable format), or for
+     anything else, email
+     <a href="mailto:support@big2online.app">support@big2online.app</a>. We will reply
+     within one month. If you are unhappy with how we handle your data, you
+     can complain to the UK Information Commissioner's Office at
+     <a href="https://ico.org.uk/make-a-complaint/">ico.org.uk</a>.</p>
 
-  <h2>Data retention</h2>
-  <p>Account data is retained while your account is active. If you delete your
-     account, personal data is removed within 30 days, except where retention
-     is required by law.</p>
+  <h2 id="delete-account">Deleting your account</h2>
+  <p>To delete your Big 2 Online account and its data:</p>
+  <ol>
+    <li>In the app, open <strong>Settings &rarr; Account &rarr; Delete
+        account</strong> and confirm. You must not be in a game or lobby at
+        the time. Deletion is immediate and permanent.</li>
+    <li>If you no longer have the app, email
+        <a href="mailto:support@big2online.app">support@big2online.app</a> from the
+        address you signed up with, or fill in the
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe29vgdlUz-LmJrWUeD8uh3oZsBvxzHPDT5UkIxHlJbzfxx2w/viewform?usp=sharing&amp;ouid=110823894789146894714">account deletion request form</a>,
+        asking us to delete your account. We will confirm once it is done
+        (within one month).</li>
+  </ol>
+  <p>What is deleted and what is kept afterwards is described under "How
+     long we keep data" above.</p>
+
+  <h2>Security</h2>
+  <p>Data is encrypted in transit (HTTPS and secure WebSockets) and our
+     database backups are encrypted. Access to production systems is
+     restricted to the operator.</p>
 
   <h2>Changes</h2>
-  <p>We may update this policy. Material changes will be announced in-app or
-     on this page with an updated "last updated" date.</p>
+  <p>We may update this policy. We will change the "last updated" date
+     above and tell you in the app about significant changes.</p>
 
   <h2>Contact</h2>
-  <p>Questions? Email <a href="mailto:support@big2online.app">support@big2online.app</a>.</p>
+  <p>Questions or requests: email
+     <a href="mailto:support@big2online.app">support@big2online.app</a>.</p>
 </body>
 </html>
